@@ -1,0 +1,209 @@
+{
+  "sections": {
+    "heading": {
+      "type": "heading-template",
+      "blocks": {
+        "ba0c8e30-c11a-4ab7-97c4-4acc1a053a3e": {
+          "type": "1",
+          "settings": {
+            "heading": "FAQ",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 20,
+            "text_lh": 20,
+            "text_fw": 500,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 15,
+            "hidden_mobile": false,
+            "text_fs_mb": 20,
+            "text_lh_mb": 20,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        },
+        "ceaf2fff-8462-4040-83d5-7f7019d65b8d": {
+          "type": "3",
+          "settings": {
+            "breadcrumb_color": "#f2f2f2",
+            "brc_mgb": 5
+          }
+        }
+      },
+      "block_order": [
+        "ba0c8e30-c11a-4ab7-97c4-4acc1a053a3e",
+        "ceaf2fff-8462-4040-83d5-7f7019d65b8d"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/s-o-c-i-a-l-c-u-t-sBqiND8rQ8s-unsplash.jpg",
+        "use_specify_image": true,
+        "parallax": false,
+        "color": "#000000",
+        "overlay": 54,
+        "padding": 50,
+        "paddingmb": 50,
+        "mg_b": 70,
+        "mg_bmb": 50,
+        "content_align": "t4s-text-center",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "60px,,60px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "sidebar-page": {
+      "type": "sidebar-page",
+      "disabled": true,
+      "blocks": {
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
+          "type": "blog_cate",
+          "settings": {
+            "title": "Blog categories",
+            "cat_link_list": "",
+            "count": true
+          }
+        }
+      },
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 5,
+        "sidebar_pd": 10
+      }
+    },
+    "165214825814e830e7": {
+      "type": "accordion",
+      "blocks": {
+        "1652148258305a99c1-0": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "truck",
+            "title": "SHIPPING POLICY",
+            "content": "<p>We deliver in Los Angeles from 9 AM to 8 PM daily. Orders placed before 2 PM can be shipped the same day. Shipping costs are calculated based on the shipping address at checkout.Delivery is free up to 3 miles.Delivery for distance from 3 to 7 miles is $9.95.Delivery for distance from 7 to 15 miles is $1.25 per mile.Delivery for distance from 15 to 25 miles is $1.5 per mile.Delivery for distance from 25 and more miles is $2 per mile.<\/p>"
+          }
+        },
+        "1652148258305a99c1-1": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "check_mark",
+            "title": "REQUESTS FOR SPECIFIC DELIVERY TIMES:",
+            "content": "<p>Because of multiple variables, including the traffic in Los Angeles, we are unable to guarantee deliveries at a specific time. However, you can request a delivery time frame by filling in the special instruction box when completing your order, and we will do our best to deliver within your preferred time frame.<\/p>"
+          }
+        },
+        "1652148258305a99c1-2": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "heart",
+            "title": "MESSAGE",
+            "content": "<p>Customers may wish to include a message with their compositions and these messages will also be private and confidential between the customer and the recipient.<\/p>"
+          }
+        },
+        "0c4e86da-f870-4d3c-abce-b988cae18d6c": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "question_mark",
+            "title": "IF THE RECIPIENT IS NOT AT HOME",
+            "content": "<p>In the case that the recipient is not at home at the time of delivery, we will contact you by phone, unless you have provided us with special instructions on the order form. We can leave the flowers in a safe place like a porch or neighbor's, or we can leave a message to call to arrange a next day delivery.<\/p>"
+          }
+        },
+        "cb973ab0-b192-4c97-b7ba-6b8acbf93e5f": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "question_mark",
+            "title": "RECIPIENT CAN BE CONTACTED:",
+            "content": "<p>We may need to contact the recipient to make sure someone will be home to take delivery or confirm the address, unless you tell us not to contact them in the instructions box when placing your order.<\/p>"
+          }
+        },
+        "f9fbcebb-a809-4cca-8806-c102d1de1c0b": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "return",
+            "title": "RETURN AND EXCHANGE POLICY",
+            "content": "<p>All sales on Bloomboom are final. We provide a service consisting of perishable products that are sensitive to temperature, moisture and light. The only exception is the receipt of a defective item. All such claims must be made within 24 hours of Flowers must be sent to info@bloomboom.us. Please be aware that flowers are perishable and have a life of their own Proper care required The recipient is responsible for following the care instructions provided by Bloomboom.<\/p>"
+          }
+        },
+        "9aa601e3-a39f-431e-aaa9-de35ae6945fb": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "chat_bubble",
+            "title": "CANCELLATION",
+            "content": "<p>All cancellation requests must be sent to (424) 208 1816 at least 24 hours before the day of delivery<\/p>"
+          }
+        },
+        "15f6d610-63c6-4503-8a7f-4a1774dcf9ed": {
+          "type": "accor_item",
+          "settings": {
+            "icon": "star",
+            "title": "SUBSTITUTION POLICY:",
+            "content": "<p>You will be able to add the items as long as it is available. There could be an instance where the item is in someone else’s shopping cart hence the status of the items is reflected as “Temporarily Unavailable”.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1652148258305a99c1-0",
+        "1652148258305a99c1-1",
+        "1652148258305a99c1-2",
+        "0c4e86da-f870-4d3c-abce-b988cae18d6c",
+        "cb973ab0-b192-4c97-b7ba-6b8acbf93e5f",
+        "f9fbcebb-a809-4cca-8806-c102d1de1c0b",
+        "9aa601e3-a39f-431e-aaa9-de35ae6945fb",
+        "15f6d610-63c6-4503-8a7f-4a1774dcf9ed"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "accor_des": "2",
+        "title_cl": "#64664d",
+        "bg_title_cl": "#f6f6f8",
+        "title_active_cl": "#64664d",
+        "bg_title_active_cl": "#f6f6f8",
+        "content_cl": "#878787",
+        "bg_content_cl": "#ffffff",
+        "content_align": "t4s-text-start",
+        "auto_active": true,
+        "layout": "t4s-container-wrap",
+        "custom_width": 1000,
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,80px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "main",
+    "sidebar-page",
+    "165214825814e830e7"
+  ]
+}

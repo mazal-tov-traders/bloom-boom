@@ -1,0 +1,347 @@
+{
+  "sections": {
+    "heading_template": {
+      "type": "heading-template",
+      "blocks": {
+        "a61b5459-0dd8-4796-a9c8-e3f1ee42dfb9": {
+          "type": "1",
+          "settings": {
+            "heading": "Page Heading",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 20,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 20,
+            "hidden_mobile": false,
+            "text_fs_mb": 20,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 20
+          }
+        },
+        "e9f249a0-0a0f-4baf-9664-73babbd7bbe7": {
+          "type": "4",
+          "settings": {
+            "design_des": "show_all",
+            "length": 60,
+            "view_more": true,
+            "viewm_txt": "View more",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 16,
+            "text_lh": 24,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 20,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        }
+      },
+      "block_order": [
+        "a61b5459-0dd8-4796-a9c8-e3f1ee42dfb9",
+        "e9f249a0-0a0f-4baf-9664-73babbd7bbe7"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/florist-making-beautiful-floral-bouquet_23-2148846490.webp",
+        "use_specify_image": false,
+        "parallax": true,
+        "color": "#000000",
+        "overlay": 41,
+        "padding": 100,
+        "paddingmb": 50,
+        "mg_b": 0,
+        "mg_bmb": 0,
+        "content_align": "t4s-text-center",
+        "bg_pos": "left center",
+        "bg_repeat": "inherit",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "top": {
+      "type": "top-collections",
+      "blocks": {
+        "863873b6-012e-4a34-90e3-eead750fa3ce": {
+          "type": "cat",
+          "settings": {
+            "collection": "up-to-150",
+            "icon": ""
+          }
+        },
+        "fc07bff9-6d08-423c-8802-9a03c34f3a31": {
+          "type": "cat",
+          "settings": {
+            "collection": "150-300",
+            "icon": ""
+          }
+        },
+        "a286cc0b-0c90-4b1a-862c-a1136f283aac": {
+          "type": "cat",
+          "settings": {
+            "collection": "300-500",
+            "icon": ""
+          }
+        },
+        "23c84729-8fcb-488c-9541-00e283af6afe": {
+          "type": "cat",
+          "settings": {
+            "collection": "500-700",
+            "icon": ""
+          }
+        },
+        "5f1d751a-fdac-43d4-ad9d-55da0c297244": {
+          "type": "cat",
+          "settings": {
+            "collection": "700-900",
+            "icon": ""
+          }
+        },
+        "0f0e1f7c-788c-46c0-9fb4-1ec7ce88da01": {
+          "type": "cat",
+          "settings": {
+            "collection": "over-900",
+            "icon": ""
+          }
+        },
+        "70189b51-5562-4924-b642-a1deba7741ee": {
+          "type": "cat",
+          "settings": {
+            "collection": "sale",
+            "icon": ""
+          }
+        },
+        "560f5822-3eeb-4070-a2cd-b5738881a4c1": {
+          "type": "cat",
+          "settings": {
+            "collection": "shoes",
+            "icon": ""
+          }
+        },
+        "be9b8b8f-6cac-47ab-b809-a2fe640a75a7": {
+          "type": "cat",
+          "settings": {
+            "collection": "women",
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "863873b6-012e-4a34-90e3-eead750fa3ce",
+        "fc07bff9-6d08-423c-8802-9a03c34f3a31",
+        "a286cc0b-0c90-4b1a-862c-a1136f283aac",
+        "23c84729-8fcb-488c-9541-00e283af6afe",
+        "5f1d751a-fdac-43d4-ad9d-55da0c297244",
+        "0f0e1f7c-788c-46c0-9fb4-1ec7ce88da01",
+        "70189b51-5562-4924-b642-a1deba7741ee",
+        "560f5822-3eeb-4070-a2cd-b5738881a4c1",
+        "be9b8b8f-6cac-47ab-b809-a2fe640a75a7"
+      ],
+      "settings": {
+        "show_top_collections": true,
+        "source": "3",
+        "menu": "by-price",
+        "sort_collections": "alphabetical_reversed",
+        "box_border": "top",
+        "content_align": "center",
+        "hidden_mobile": false,
+        "space_item": 33,
+        "fontf": "inherit",
+        "text_cl": "#ffffff",
+        "text_cl_hover": "#ffffff",
+        "text_fs": 18,
+        "text_lh": 30,
+        "text_fw": 400,
+        "text_ls": 0,
+        "font_italic": false,
+        "nav_btn": true,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "#64664d",
+        "cl_bg_gradient": "",
+        "mg": "3",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "filter_id": {
+          "type": "filter",
+          "settings": {
+            "style_filters": "sidebar"
+          }
+        },
+        "740319a4-8e19-4c70-b8a9-ada7cf235cbc": {
+          "type": "layout",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "30594d23-d644-4653-9545-9ff769d2e6ab": {
+          "type": "sortby",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "filter_id",
+        "740319a4-8e19-4c70-b8a9-ada7cf235cbc",
+        "30594d23-d644-4653-9545-9ff769d2e6ab"
+      ],
+      "settings": {
+        "show_desc": false,
+        "position_desc": "2",
+        "product_des": "1",
+        "show_vendor": false,
+        "use_cdt": true,
+        "image_ratio": "ratio1_1",
+        "image_size": "cover",
+        "image_position": "8",
+        "content_align": "default",
+        "limit": 12,
+        "enable_listing": true,
+        "enable_listing_default": false,
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "6",
+        "space_v_item_mb": "6",
+        "layout_des": "1",
+        "use_pagination": "default",
+        "enable_bar_lm": true,
+        "btn_icon": false,
+        "button_style": "outline",
+        "btns_size": "large",
+        "btns_cl": "primary",
+        "button_effect": "sweep-to-right",
+        "btn_pos": "t4s-text-center",
+        "type_filters": "facets",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_mb": ",,15x,",
+        "pd_mb": ""
+      }
+    },
+    "sidebar": {
+      "type": "sidebar-collection",
+      "blocks": {
+        "c7bdf308-8019-4991-b58c-6d3e205a52eb": {
+          "type": "category",
+          "settings": {
+            "heading": "Product Categories",
+            "cat_source": "1",
+            "cat_link_list": "",
+            "count": true
+          }
+        },
+        "9d37e80a-1eda-4a65-bb08-199e6a933a16": {
+          "type": "collection",
+          "settings": {
+            "heading": "Sale Products",
+            "collection": "frontpage",
+            "limit_pr": 3,
+            "image_ratio": "t4s_ratioadapt",
+            "image_size": "t4s_cover",
+            "image_position": "t4s_position_8"
+          }
+        },
+        "c090f36e-d6ef-4a2a-ab04-cc78211dadb7": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "img_effect": "zoom",
+            "b_link": "",
+            "open_link": "_self",
+            "content_align": "center",
+            "date": "2022\/12\/26",
+            "cdt_des": "1",
+            "countdown_pos": "2",
+            "cdt_size": "small",
+            "box_bdr": 0,
+            "bd_width": 0,
+            "space_item": 10,
+            "number_cl": "#ffffff",
+            "text_cl": "#222222",
+            "border_cl": "#000000",
+            "bg_cl": "#000000"
+          }
+        },
+        "221aa22f-5c6c-40c9-9403-6d3cd2c23e93": {
+          "type": "filter",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "c7bdf308-8019-4991-b58c-6d3e205a52eb",
+        "9d37e80a-1eda-4a65-bb08-199e6a933a16",
+        "c090f36e-d6ef-4a2a-ab04-cc78211dadb7",
+        "221aa22f-5c6c-40c9-9403-6d3cd2c23e93"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 0,
+        "sidebar_pd": 15
+      }
+    },
+    "cf279a8a-4f21-42e3-8e11-601662eaa6f3": {
+      "type": "contact-form",
+      "blocks": {
+        "template--19954254807348__cf279a8a-4f21-42e3-8e11-601662eaa6f3-1689176931840b9827-1": {
+          "type": "bl_info",
+          "settings": {
+            "heading": "DAISIES",
+            "text": "<h2>Discover the Magic of Roses at Bloom Boom<\/h2>\n<p>Our mono-bouquet roses are the epitome of elegance and beauty, a perfect pick for when you’re looking to make an unforgettable impression for someone or something you care about. Whether your order is for personal or professional purposes, our vibrant colors will add vibrancy and life to any room. From romantic pinks to a silver foliage white, there is a colorful rose option in our Mono-Bouquet that is sure to evoke the perfect emotion.<\/p>\n\n<p>For those interested purchasing these rose bouquets, we offer several color choices and 3 different sizes depending on your needs.<\/p>\n<h2>Roses Bouquet: Introducing Our New Mono-bouquet Roses Category<\/h2>\n<p>As a leading flower brand in Santa Monica, we are proud to introduce our new category of mono-bouquet roses. Available in multiple color options, including red, pink, yellow, cream, peach, white, bright pink, and colorful, these stunning rose flowers near me are sure to make a lasting impression.<\/p>\n<h3>Big Bouquet of Roses: Choose from Standard, Deluxe, and Premium Sizes<\/h3>\n<p>When it comes to selecting the perfect big roses bouquet, size matters. That's why at Bloom Boom, we offer three different sizes to suit your needs:<\/p>\n<ul>\n<li>Standard (25 roses): Ideal for a romantic gesture or a small gift, our standard bouquet of roses features 25 beautiful rose flowers.<\/li>\n<li>Deluxe (39 roses): A larger bouquet of roses, perfect for making a statement or celebrating a special occasion.<\/li>\n<li>Premium (69 roses): For the ultimate wow-factor, choose our premium huge bouquet of roses with a stunning 69 roses.<\/li>\n<\/ul>\n<h3>Large Bouquet of Roses: Customizable for Your Needs<\/h3>\n<p>At Bloom Boom, we understand that every customer has unique preferences and requirements. That's why our large bouquet of roses can be customized to suit your tastes and budget. Mix and match colors, or stick with a single hue for a striking visual impact.<\/p>\n<h2>Bouquet of Roses Price: How Much Does a Bouquet of Roses Cost?<\/h2>\n<p>The bouquet of roses price at Bloom Boom is dependent on the size and customization options you choose. We offer competitive pricing and value for money, ensuring you receive the best bouquet of roses in Los Angeles.<\/p>\n<p>At Bloom Boom, we believe in offering quality, variety, and convenience at an affordable price. Our bouquet of roses price varies based on the size and color options you choose. Whether you're looking for a 25 roses bouquet, a 39 roses bouquet, or a premium 69 roses bouquet, you'll find that our prices are competitive and designed to suit a wide range of budgets.<\/p>\n<h2>A Colorful Array of Options: From Red Roses Bouquet to Colorful Roses Bouquet<\/h2>\n<p>Our Mono-bouquet roses come in a delightful variety of colors, including:<\/p>\n<ul>\n<li>Red roses bouquet<\/li>\n<li>Pink roses bouquet<\/li>\n<li>Yellow roses bouquet<\/li>\n<li>White roses bouquet<\/li>\n<li>Cream roses bouquet<\/li>\n<li>Peach roses bouquet<\/li>\n<li>Bright Pink roses bouquet<\/li>\n<li>Colorful roses bouquet<\/li>\n<\/ul>\n<p>Whether you're looking for a romantic bouquet of red roses or a cheerful and vibrant colorful roses bouquet, you'll find the perfect color to express your feelings and enhance your space.<\/p>\n<h3>Red Roses Bouquet: The Classic Symbol of Love<\/h3>\n<p>A bouquet of red roses is a timeless expression of love and passion. Our red roses bouquet is perfect for romantic occasions, such as anniversaries, Valentine's Day, or simply to surprise your loved one with a heartfelt gesture.<\/p>\n<p>These vibrant and delightful rouge flowers beautifully capture elegance with every petal, revealing emotion through color like never before.<\/p>\n<h3>Pink Roses Bouquet: A Charming Display of Affection<\/h3>\n<p>Our pink roses bouquet is a delightful choice for those looking to convey warmth, gratitude, and admiration. The soft pink hues of our rose flowers make this bouquet a lovely addition to any home, office, or special event.<\/p>\n<p>Our charismatically vivid pink rose bouquet has become the talk of the town, and for good reason! Not only are these velveteen roses blooming with a captivating beauty that can't be denied, but they also bear an unmistakable fragrance which is sure to leave every recipient filled with immense delight.<\/p>\n<p>This particular arrangement exudes extravagance in its finest form - making it ideal for luxury events or heartfelt effortless gifting occasions alike! Luxuriate in delightful magnificence when you order Bloom Boom’s elegantly simple mono bouquet today!<\/p>\n<h3>Yellow Roses Bouquet: A Vibrant Celebration of Friendship<\/h3>\n<p>Bright and cheerful, our yellow roses bouquet is the ideal way to celebrate friendship and joy. Add a touch of sunshine to someone's day with these vibrant roses.<\/p>\n<p>Radiantly bright and genuinely cheerful, our radiant yellow roses bouquet is the perfect way to honor long-lasting friendships with gusto and joy. These mesmerizing blooms are like a fresh morning breeze that brings sunshine into someone's life no matter what corner of Los Angeles or beyond they may inhabit!<\/p>\n<p>Our mono-bouquets feature exquisitely fragrant long stem rose bushes creating an ebullient exchange unlike any other - these pops of color will certainly reverberate within your special recipient’s soul for years on end! Aspiring florists seeking to embrace their admiration for capricious beauty need look no further than this example of understated elegance erupting out from between velvet petals!<\/p>\n<h3>White Roses Bouquet: A Symbol of Purity and Grace<\/h3>\n<p>A bouquet of white roses is often associated with purity, innocence, and grace. Our white roses bouquet is a beautiful choice for weddings, christenings, or simply to bring a touch of elegance to your home or office.<\/p>\n<p>An exquisite bouquet of white roses is sure to bring opulence and regality into any room. Our new mono-bouquets are grown with meticulous attention ensuring that each bloom contains an unmatched freshness, aesthetic brilliance, and consignment of goodness.<\/p>\n<p>As you run your fingers over these supple blossoms they will unfurl their delicate teacups filled with fluffy stamens that impart subtle fragrance. We assure you complete satisfaction by delivering vibrant blooms unequaled in grandeur or gaiety along The City Of Angels' streets for all occasions worth celebrating.<\/p>\n<h2>Convenient Roses Bouquet Delivery Near Me<\/h2>\n<p>At Bloom Boom, we make it easy and convenient to order a bouquet of roses with our roses bouquet delivery service. Simply place your order online, and we'll take care of the rest. If you're searching for roses flowers near me in Los Angeles or Santa Monica, we have you covered.<\/p>\n<p>We deliver in Los Angeles from 9 AM to 8 PM daily. Orders placed before 2 PM can be shipped the same day. Shipping costs are calculated based on the shipping address at checkout. Delivery is free up to 3 miles. Delivery for distance from 3 to 7 miles is $9.95. Delivery for distance from 7 to 15 miles is $1.25 per mile. Delivery for distance from 15 to 25 miles is $1.5 per mile. Delivery for distance from 25 and more miles is $2 per mile.<\/p>\n<p>Most bouquets are ready in 4 hours for pickup at our location: 500 Broadway, Santa Monica, California, 90401.<\/p>\n<h2>Experience the Magic of Bloom Boom's Mono-Bouquet Roses Today<\/h2>\n<p>Embrace the elegance and charm of our Mono-bouquet roses and discover the magic of Bloom Boom today! With a diverse range of sizes, colors, and delivery options, it's never been easier to find and experience the best bouquet of roses in Los Angeles and Santa Monica.<\/p>\n\n<div itemscope=\"\" itemtype=\"https:\/\/schema.org\/FAQPage\" class=\"faqpage\">\n<h2>Frequently Asked Questions<\/h2>\n<div itemscope=\"\" itemprop=\"mainEntity\" itemtype=\"https:\/\/schema.org\/Question\">\n<h3 itemprop=\"name\">How do I choose the best bouquet of roses for my needs?<i class=\"icon icon-chevron-down\"><\/i>\n<\/h3>\n<div itemscope=\"\" itemprop=\"acceptedAnswer\" itemtype=\"https:\/\/schema.org\/Answer\">\n<div itemprop=\"text\" class=\"faqtext\">\nConsider the occasion, the recipient's preferences, and your budget when selecting the perfect bouquet of roses. Our friendly and knowledgeable staff at Bloom Boom are always on hand to help you make the right decision.\n<\/div>\n<\/div>\n<\/div>\n<div itemscope=\"\" itemprop=\"mainEntity\" itemtype=\"https:\/\/schema.org\/Question\">\n<h3 itemprop=\"name\">Can I customize my bouquet of roses?<i class=\"icon icon-chevron-down\"><\/i>\n<\/h3>\n<div itemscope=\"\" itemprop=\"acceptedAnswer\" itemtype=\"https:\/\/schema.org\/Answer\">\n<div itemprop=\"text\" class=\"faqtext\">\nYes! At Bloom Boom, we offer customizable large bouquet of roses to suit your tastes and requirements. Mix and match colors, or choose a single hue for a striking visual impact.\n<\/div>\n<\/div>\n<\/div>\n<div itemscope=\"\" itemprop=\"mainEntity\" itemtype=\"https:\/\/schema.org\/Question\">\n<h3 itemprop=\"name\">How do I place an order for a bouquet of roses delivery?<i class=\"icon icon-chevron-down\"><\/i>\n<\/h3>\n<div itemscope=\"\" itemprop=\"acceptedAnswer\" itemtype=\"https:\/\/schema.org\/Answer\">\n<div itemprop=\"text\" class=\"faqtext\">\nSimply visit our store at 500 Broadway, Santa Monica CA 90401, United States, or give us a call at +1 424-208-1816 to place your order for roses bouquet delivery.\n<\/div>\n<\/div>\n<\/div>\n<div itemscope=\"\" itemprop=\"mainEntity\" itemtype=\"https:\/\/schema.org\/Question\">\n<h3 itemprop=\"name\">Can I send a bouquet of roses to someone as a gift?<i class=\"icon icon-chevron-down\"><\/i>\n<\/h3>\n<div itemscope=\"\" itemprop=\"acceptedAnswer\" itemtype=\"https:\/\/schema.org\/Answer\">\n<div itemprop=\"text\" class=\"faqtext\">\nAbsolutely! Our roses flowers make the perfect gift for any occasion. Place your order online or over the phone, and we will deliver the beautiful bouquet of roses directly to the recipient's address.\n<\/div>\n<\/div>\n<\/div>\n<div itemscope=\"\" itemprop=\"mainEntity\" itemtype=\"https:\/\/schema.org\/Question\">\n<h3 itemprop=\"name\">What is the difference between a standard, deluxe, and premium bouquet of roses?<i class=\"icon icon-chevron-down\"><\/i>\n<\/h3>\n<div itemscope=\"\" itemprop=\"acceptedAnswer\" itemtype=\"https:\/\/schema.org\/Answer\">\n<div itemprop=\"text\" class=\"faqtext\">\nThe main difference between our standard, deluxe, and premium bouquets of roses is the size. Our standard bouquet features 25 roses, our deluxe bouquet has 39 roses, and our premium bouquet boasts a stunning 69 roses.\n\n<\/div>\n<\/div>\n<\/div>\n\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "template--19954254807348__cf279a8a-4f21-42e3-8e11-601662eaa6f3-1689176931840b9827-1"
+      ],
+      "settings": {
+        "enable_map": false,
+        "map": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3154.8939060848147!2d144.81158271584684!3d-37.74563313792195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65fa6debeb781%3A0xe1d23f5d1759961e!2s184%20Main%20Rd%20E%2C%20St%20Albans%20VIC%203021%2C%20%C3%9Ac!5e0!3m2!1svi!2s!4v1618277125252!5m2!1svi!2s\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"><\/iframe>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "50px,,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "heading_template",
+    "top",
+    "main",
+    "sidebar",
+    "cf279a8a-4f21-42e3-8e11-601662eaa6f3"
+  ]
+}

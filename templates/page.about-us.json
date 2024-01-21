@@ -1,0 +1,164 @@
+{
+  "sections": {
+    "heading": {
+      "type": "heading-template",
+      "blocks": {
+        "19597bfc-5c00-4420-aec0-d72dde32a1e7": {
+          "type": "1",
+          "settings": {
+            "heading": "About us",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 20,
+            "text_lh": 20,
+            "text_fw": 500,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 3,
+            "hidden_mobile": false,
+            "text_fs_mb": 20,
+            "text_lh_mb": 20,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 5
+          }
+        },
+        "c1ab6fbb-940f-4eb4-b374-ce3370b4382f": {
+          "type": "2",
+          "settings": {
+            "content": "<p>Follow your passion, and success will follow you<\/p>",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 14,
+            "text_lh": 24,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 0,
+            "hidden_mobile": false,
+            "text_fs_mb": 14,
+            "text_lh_mb": 24,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 0
+          }
+        }
+      },
+      "block_order": [
+        "19597bfc-5c00-4420-aec0-d72dde32a1e7",
+        "c1ab6fbb-940f-4eb4-b374-ce3370b4382f"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/web.png",
+        "use_specify_image": true,
+        "parallax": false,
+        "color": "#000000",
+        "overlay": 54,
+        "padding": 50,
+        "paddingmb": 50,
+        "mg_b": 60,
+        "mg_bmb": 30,
+        "content_align": "t4s-text-center",
+        "bg_pos": "center top",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": ""
+      }
+    },
+    "sidebar-page": {
+      "type": "sidebar-page",
+      "disabled": true,
+      "blocks": {
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08": {
+          "type": "blog_cate",
+          "settings": {
+            "title": "Blog categories",
+            "cat_link_list": "",
+            "count": true
+          }
+        }
+      },
+      "block_order": [
+        "f69681ed-b75e-42de-be58-fdf73b3b7e08"
+      ],
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 5,
+        "sidebar_pd": 10
+      }
+    },
+    "ce8036bb-473e-413a-976a-7124e15ffe81": {
+      "type": "about_us",
+      "blocks": {
+        "template--17605020221748__ce8036bb-473e-413a-976a-7124e15ffe81-1682790781fed517e6-0": {
+          "type": "bl_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/s-o-c-i-a-l-c-u-t-sBqiND8rQ8s-unsplash_d98f1412-9783-48dd-832f-007a26185759.jpg",
+            "use_border": true,
+            "video_url": "",
+            "mgb": 15,
+            "mgb_mb": 10
+          }
+        },
+        "template--17605020221748__ce8036bb-473e-413a-976a-7124e15ffe81-1682790781fed517e6-1": {
+          "type": "bl_text",
+          "settings": {
+            "text": "<p>Bloomboom is a flower brand that offers a unique sensory experience through its bright and massive floral interior and exterior, inspired by the European tradition of flower shops. As a business+ segment brand, Bloomboom caters to customers who value quality, variety, and convenience, and who seek to enhance their personal and professional spaces with beautiful and fresh flowers<\/p><p>Whether you want to brighten up your home, office, or special event, or simply enjoy a delightful coffee break surrounded by nature's beauty, Bloomboom is the perfect choice for you. Come and discover the magic of Bloomboom today!<\/p>",
+            "mgb": 25,
+            "mgb_mb": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--17605020221748__ce8036bb-473e-413a-976a-7124e15ffe81-1682790781fed517e6-0",
+        "template--17605020221748__ce8036bb-473e-413a-976a-7124e15ffe81-1682790781fed517e6-1"
+      ],
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-center",
+        "top_heading": "",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 30,
+        "txt_align": "center",
+        "image_ratio": "ratio16_9",
+        "image_size": "cover",
+        "image_position": "8",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "main",
+    "sidebar-page",
+    "ce8036bb-473e-413a-976a-7124e15ffe81"
+  ]
+}

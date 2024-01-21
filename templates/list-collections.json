@@ -1,0 +1,285 @@
+{
+  "sections": {
+    "heading": {
+      "type": "heading-template",
+      "blocks": {
+        "8a07976b-2d4e-4066-ad3b-2d7a9e79fae0": {
+          "type": "1",
+          "settings": {
+            "heading": "",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 20,
+            "text_lh": 20,
+            "text_fw": 500,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 5,
+            "hidden_mobile": false,
+            "text_fs_mb": 20,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 5
+          }
+        }
+      },
+      "block_order": [
+        "8a07976b-2d4e-4066-ad3b-2d7a9e79fae0"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/korziny-2.webp",
+        "use_specify_image": true,
+        "parallax": false,
+        "color": "#000000",
+        "overlay": 54,
+        "padding": 50,
+        "paddingmb": 50,
+        "mg_b": 60,
+        "mg_bmb": 40,
+        "content_align": "t4s-text-center",
+        "bg_pos": "center center",
+        "bg_repeat": "no-repeat",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "2363b965-b170-4eef-beda-9fcbd426bb8a": {
+          "type": "collection",
+          "settings": {
+            "collection": "bestsellers",
+            "collection_title": ""
+          }
+        },
+        "6262ca3b-e14e-4613-9a87-0be7ab00b460": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-arrivals",
+            "collection_title": ""
+          }
+        },
+        "8b8e32c0-23d6-4b50-9356-1f707380d72f": {
+          "type": "collection",
+          "settings": {
+            "collection": "birthday",
+            "collection_title": ""
+          }
+        },
+        "3cf3b5de-76cf-4462-96cd-12be5d86bd88": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "events",
+            "collection_title": ""
+          }
+        },
+        "23753dbb-bdea-49f5-9599-1356f824405e": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "gifts",
+            "collection_title": ""
+          }
+        },
+        "0c6c4144-65af-4492-9e04-c54bb9533523": {
+          "type": "collection",
+          "settings": {
+            "collection": "romantic",
+            "collection_title": "Top"
+          }
+        },
+        "3819762b-01e1-42a2-9ff2-3a58b005b4a6": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "signature-collection",
+            "collection_title": ""
+          }
+        },
+        "1ecf90ee-3eeb-4f4b-a8ba-2e260ff5cb45": {
+          "type": "collection",
+          "settings": {
+            "collection": "congratulations",
+            "collection_title": ""
+          }
+        },
+        "ffbd07a5-a770-4e25-9750-d15b1c88f4ad": {
+          "type": "collection",
+          "settings": {
+            "collection": "authors-bouquets",
+            "collection_title": ""
+          }
+        },
+        "a3c13cd5-26d9-4224-8b8a-dc4a26992a2f": {
+          "type": "collection",
+          "settings": {
+            "collection": "mono-bouquets",
+            "collection_title": "Collection"
+          }
+        },
+        "a3e86108-15f4-4820-9248-915a772e210f": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "collection-simple",
+            "collection_title": ""
+          }
+        },
+        "866fdb89-3da6-421a-b2cf-92addfede8d2": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "vases",
+            "collection_title": ""
+          }
+        },
+        "33c66b90-8271-4844-953d-d04fe0af3499": {
+          "type": "collection",
+          "settings": {
+            "collection": "baskets",
+            "collection_title": "Collection"
+          }
+        },
+        "def8d46c-be2e-4251-ba8b-df44e59b55d5": {
+          "type": "collection",
+          "settings": {
+            "collection": "box",
+            "collection_title": "Collection"
+          }
+        }
+      },
+      "block_order": [
+        "2363b965-b170-4eef-beda-9fcbd426bb8a",
+        "6262ca3b-e14e-4613-9a87-0be7ab00b460",
+        "8b8e32c0-23d6-4b50-9356-1f707380d72f",
+        "3cf3b5de-76cf-4462-96cd-12be5d86bd88",
+        "23753dbb-bdea-49f5-9599-1356f824405e",
+        "0c6c4144-65af-4492-9e04-c54bb9533523",
+        "3819762b-01e1-42a2-9ff2-3a58b005b4a6",
+        "1ecf90ee-3eeb-4f4b-a8ba-2e260ff5cb45",
+        "ffbd07a5-a770-4e25-9750-d15b1c88f4ad",
+        "a3c13cd5-26d9-4224-8b8a-dc4a26992a2f",
+        "a3e86108-15f4-4820-9248-915a772e210f",
+        "866fdb89-3da6-421a-b2cf-92addfede8d2",
+        "33c66b90-8271-4844-953d-d04fe0af3499",
+        "def8d46c-be2e-4251-ba8b-df44e59b55d5"
+      ],
+      "settings": {
+        "cat_design": "7",
+        "title_cl": "#ffffff",
+        "title_cl_hover": "#222222",
+        "subtitle_cl": "#222222",
+        "count_cl": "#222222",
+        "border_cl": "#e5e5e5",
+        "display_type": "selected",
+        "limit": 6,
+        "layout_des": "1",
+        "col_dk": "3",
+        "col_tb": "3",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "6",
+        "space_v_item_mb": "6",
+        "space_bottom": 10,
+        "space_bottom_mb": 10,
+        "border": false,
+        "item_pd": 0,
+        "item_rd": 0,
+        "img_effect": "zoom",
+        "b_effect": "none",
+        "image_ratio": "t4s_ratio1_1",
+        "image_size": "t4s_cover",
+        "image_position": "t4s_position_8",
+        "use_pagination": "load-more",
+        "enable_bar_lm": true,
+        "btn_icon": false,
+        "button_style": "default",
+        "btns_size": "large",
+        "btns_cl": "primary",
+        "button_effect": "fade",
+        "btn_pos": "t4s-text-center",
+        "pr_txt": "products",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,80px,",
+        "pd": "",
+        "mg_mb": ",,50px,",
+        "pd_mb": ""
+      }
+    },
+    "ea31dca1-65dd-465a-b985-36b9050832d4": {
+      "type": "featured-collection",
+      "settings": {
+        "design_heading": "1",
+        "heading_align": "t4s-text-start",
+        "top_heading": "Featured collection",
+        "icon_heading": "las la-gem",
+        "top_subheading": "",
+        "tophead_mb": 10,
+        "collection": "bestsellers",
+        "product_des": "1",
+        "show_vendor": false,
+        "use_cdt": false,
+        "image_ratio": "rationt",
+        "image_size": "cover",
+        "image_position": "8",
+        "content_align": "default",
+        "limit": 8,
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "10",
+        "space_v_item_mb": "10",
+        "layout_des": "2",
+        "loop": true,
+        "au_time": 0,
+        "au_hover": true,
+        "nav_btn": false,
+        "btns_pos": "default",
+        "btn_vi": "hover",
+        "btn_owl": "default",
+        "btn_shape": "none",
+        "btn_cl": "dark",
+        "btn_size": "small",
+        "btn_hidden_mobile": true,
+        "nav_dot": false,
+        "dot_owl": "default",
+        "dots_cl": "dark",
+        "dots_round": true,
+        "dots_space": 10,
+        "dots_hidden_mobile": false,
+        "use_pagination": "none",
+        "enable_bar_lm": true,
+        "btn_icon": false,
+        "button_style": "default",
+        "btns_size": "large",
+        "btns_cl": "dark",
+        "button_effect": "default",
+        "btn_pos": "t4s-text-center",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "main",
+    "ea31dca1-65dd-465a-b985-36b9050832d4"
+  ]
+}

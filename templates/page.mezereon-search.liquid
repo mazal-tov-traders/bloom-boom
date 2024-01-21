@@ -1,0 +1,9 @@
+<div class="page-width">
+  {%- assign searchTitle = 'general.search.title' | t -%}
+  {%- if searchTitle contains 'translation missing' -%}
+  {%- assign searchTitle = 'Search results' -%}
+  {%- endif -%}
+  <h1>{{ searchTitle }}</h1>
+  {{ page.content }}
+  {% include 'mezereon-search' %}
+</div>

@@ -1,0 +1,13 @@
+{
+  "layout": "theme",
+  "sections": {
+    "ecom-collection-page-new": {
+      "type": "ecom-collection-page-new-collection",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "ecom-collection-page-new"
+  ]
+}

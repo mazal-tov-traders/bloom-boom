@@ -1,0 +1,347 @@
+{
+  "sections": {
+    "heading_template": {
+      "type": "heading-template",
+      "blocks": {
+        "a61b5459-0dd8-4796-a9c8-e3f1ee42dfb9": {
+          "type": "1",
+          "settings": {
+            "heading": "Page Heading",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 20,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 20,
+            "hidden_mobile": false,
+            "text_fs_mb": 20,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 20
+          }
+        },
+        "e9f249a0-0a0f-4baf-9664-73babbd7bbe7": {
+          "type": "4",
+          "settings": {
+            "design_des": "show_all",
+            "length": 60,
+            "view_more": true,
+            "viewm_txt": "View more",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 16,
+            "text_lh": 24,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 20,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        }
+      },
+      "block_order": [
+        "a61b5459-0dd8-4796-a9c8-e3f1ee42dfb9",
+        "e9f249a0-0a0f-4baf-9664-73babbd7bbe7"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/florist-making-beautiful-floral-bouquet_23-2148846490.webp",
+        "use_specify_image": false,
+        "parallax": true,
+        "color": "#000000",
+        "overlay": 41,
+        "padding": 100,
+        "paddingmb": 50,
+        "mg_b": 0,
+        "mg_bmb": 0,
+        "content_align": "t4s-text-center",
+        "bg_pos": "left center",
+        "bg_repeat": "inherit",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "top": {
+      "type": "top-collections",
+      "blocks": {
+        "863873b6-012e-4a34-90e3-eead750fa3ce": {
+          "type": "cat",
+          "settings": {
+            "collection": "up-to-150",
+            "icon": ""
+          }
+        },
+        "fc07bff9-6d08-423c-8802-9a03c34f3a31": {
+          "type": "cat",
+          "settings": {
+            "collection": "150-300",
+            "icon": ""
+          }
+        },
+        "a286cc0b-0c90-4b1a-862c-a1136f283aac": {
+          "type": "cat",
+          "settings": {
+            "collection": "300-500",
+            "icon": ""
+          }
+        },
+        "23c84729-8fcb-488c-9541-00e283af6afe": {
+          "type": "cat",
+          "settings": {
+            "collection": "500-700",
+            "icon": ""
+          }
+        },
+        "5f1d751a-fdac-43d4-ad9d-55da0c297244": {
+          "type": "cat",
+          "settings": {
+            "collection": "700-900",
+            "icon": ""
+          }
+        },
+        "0f0e1f7c-788c-46c0-9fb4-1ec7ce88da01": {
+          "type": "cat",
+          "settings": {
+            "collection": "over-900",
+            "icon": ""
+          }
+        },
+        "70189b51-5562-4924-b642-a1deba7741ee": {
+          "type": "cat",
+          "settings": {
+            "collection": "sale",
+            "icon": ""
+          }
+        },
+        "560f5822-3eeb-4070-a2cd-b5738881a4c1": {
+          "type": "cat",
+          "settings": {
+            "collection": "shoes",
+            "icon": ""
+          }
+        },
+        "be9b8b8f-6cac-47ab-b809-a2fe640a75a7": {
+          "type": "cat",
+          "settings": {
+            "collection": "women",
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "863873b6-012e-4a34-90e3-eead750fa3ce",
+        "fc07bff9-6d08-423c-8802-9a03c34f3a31",
+        "a286cc0b-0c90-4b1a-862c-a1136f283aac",
+        "23c84729-8fcb-488c-9541-00e283af6afe",
+        "5f1d751a-fdac-43d4-ad9d-55da0c297244",
+        "0f0e1f7c-788c-46c0-9fb4-1ec7ce88da01",
+        "70189b51-5562-4924-b642-a1deba7741ee",
+        "560f5822-3eeb-4070-a2cd-b5738881a4c1",
+        "be9b8b8f-6cac-47ab-b809-a2fe640a75a7"
+      ],
+      "settings": {
+        "show_top_collections": true,
+        "source": "3",
+        "menu": "by-price",
+        "sort_collections": "alphabetical_reversed",
+        "box_border": "top",
+        "content_align": "center",
+        "hidden_mobile": false,
+        "space_item": 33,
+        "fontf": "inherit",
+        "text_cl": "#ffffff",
+        "text_cl_hover": "#ffffff",
+        "text_fs": 18,
+        "text_lh": 30,
+        "text_fw": 400,
+        "text_ls": 0,
+        "font_italic": false,
+        "nav_btn": true,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "#64664d",
+        "cl_bg_gradient": "",
+        "mg": "3",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "filter_id": {
+          "type": "filter",
+          "settings": {
+            "style_filters": "sidebar"
+          }
+        },
+        "740319a4-8e19-4c70-b8a9-ada7cf235cbc": {
+          "type": "layout",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "30594d23-d644-4653-9545-9ff769d2e6ab": {
+          "type": "sortby",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "filter_id",
+        "740319a4-8e19-4c70-b8a9-ada7cf235cbc",
+        "30594d23-d644-4653-9545-9ff769d2e6ab"
+      ],
+      "settings": {
+        "show_desc": false,
+        "position_desc": "2",
+        "product_des": "1",
+        "show_vendor": false,
+        "use_cdt": true,
+        "image_ratio": "ratio1_1",
+        "image_size": "cover",
+        "image_position": "8",
+        "content_align": "default",
+        "limit": 12,
+        "enable_listing": true,
+        "enable_listing_default": false,
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "6",
+        "space_v_item_mb": "6",
+        "layout_des": "1",
+        "use_pagination": "default",
+        "enable_bar_lm": true,
+        "btn_icon": false,
+        "button_style": "outline",
+        "btns_size": "large",
+        "btns_cl": "primary",
+        "button_effect": "sweep-to-right",
+        "btn_pos": "t4s-text-center",
+        "type_filters": "facets",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_mb": ",,15x,",
+        "pd_mb": ""
+      }
+    },
+    "sidebar": {
+      "type": "sidebar-collection",
+      "blocks": {
+        "c7bdf308-8019-4991-b58c-6d3e205a52eb": {
+          "type": "category",
+          "settings": {
+            "heading": "Product Categories",
+            "cat_source": "1",
+            "cat_link_list": "",
+            "count": true
+          }
+        },
+        "9d37e80a-1eda-4a65-bb08-199e6a933a16": {
+          "type": "collection",
+          "settings": {
+            "heading": "Sale Products",
+            "collection": "frontpage",
+            "limit_pr": 3,
+            "image_ratio": "t4s_ratioadapt",
+            "image_size": "t4s_cover",
+            "image_position": "t4s_position_8"
+          }
+        },
+        "c090f36e-d6ef-4a2a-ab04-cc78211dadb7": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "img_effect": "zoom",
+            "b_link": "",
+            "open_link": "_self",
+            "content_align": "center",
+            "date": "2022\/12\/26",
+            "cdt_des": "1",
+            "countdown_pos": "2",
+            "cdt_size": "small",
+            "box_bdr": 0,
+            "bd_width": 0,
+            "space_item": 10,
+            "number_cl": "#ffffff",
+            "text_cl": "#222222",
+            "border_cl": "#000000",
+            "bg_cl": "#000000"
+          }
+        },
+        "221aa22f-5c6c-40c9-9403-6d3cd2c23e93": {
+          "type": "filter",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "c7bdf308-8019-4991-b58c-6d3e205a52eb",
+        "9d37e80a-1eda-4a65-bb08-199e6a933a16",
+        "c090f36e-d6ef-4a2a-ab04-cc78211dadb7",
+        "221aa22f-5c6c-40c9-9403-6d3cd2c23e93"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 0,
+        "sidebar_pd": 15
+      }
+    },
+    "d92cb24f-d92a-4225-80fb-1f1a780714bd": {
+      "type": "contact-form",
+      "blocks": {
+        "template--17605021434164__d92cb24f-d92a-4225-80fb-1f1a780714bd-168917674426c68009-1": {
+          "type": "bl_info",
+          "settings": {
+            "heading": "TULIPS",
+            "text": "<h2>Embrace the Magic of Tulips with Bloom Boom<\/h2> <p>Tulips have always been synonymous with beauty, elegance, and a touch of charm. These captivating flowers hold a special place in the hearts of many, and now, Bloom Boom brings you a spectacular new category: Mono-bouquet Tulips. Revel in the sheer magnificence of our fresh and vibrant bouquets, perfect for adorning any space, be it your home or office.<\/p> <h2>Tulip Flowers: The Quintessence of Grace and Refinement<\/h2> <p>The tulip flower is an emblem of sophistication and refinement. Originating in Central Asia and Turkey, tulips have long been prized for their delicate petals, graceful silhouette, and vibrant hues. Blossoming in an array of colors, tulips have the ability to instantly elevate the ambiance of any setting, making them a beloved choice for personal and professional spaces alike.<\/p> <p>At Bloom Boom, we have curated a lavish assortment of tulips flowers for our discerning clientele in the Los Angeles and Santa Monica area. Our mono-bouquet tulips selection promises to enrapture your senses while exuding an air of understated elegance.<\/p> <h2>Tulips Bouquet: Unparalleled Beauty in Every Bloom<\/h2> <p>Bloom Boom's mono-bouquet tulips are meticulously crafted to ensure that each tulip flower arrangement is a masterpiece in its own right. With a focus on quality, variety, and convenience, we offer three luxurious options for your floral indulgence:<\/p> <ul> <li>Embrace the captivating magic of mono-bouquet tulips with Bloom Boom, offering a remarkable selection of 21 eye-catching and awe inspiring blooms at an unbeatable price. Bring life to any room in your home or office space with these gorgeous feature flowers in our standard size for just $153. Choose from traditional oranges, stunning lilac or delightful yellows that will vivify even the dullest setting – all arranged by our expert florists into one beautiful bouquet! Whether you’re looking for something showy to impress friends and family during dinner parties, housewarmings or other events; targeting \"just because\" gifts; aiming to raise spirits through special occasions such as Mother's Day - whatever it is - nothing says ‘I care’ like a magnificently radiant display of fresh bloomed tulips gifted straight from the heart via bloom boom delights.<\/li> <li>Bloom Boom’s Deluxe Mono-Bouquet of Tulips offers 35 vibrantly vivid and wide petaled tulips for just $255. Create magic with a distinct, stunning mono-bouquet that will linger in the hearts of your loved ones long after it's gone – a perfect remembrance marred only by its scarcity! Add some indiscernible sparkle to any occasion with elegiac flower arrangements gamely prepared and artfully arranged at Bloom Boom.<\/li> <li>For those looking to truly embrace the magic of mono-bouquet tulips, look no further than Bloom Boom's Premium Package. This package offers a stunning selection of 51 carefully hand picked tulips in an array of your choice of vibrant colors that spread pure joy with their sublime sight for $371. Rest assured these blooms will stay fresh for at least seven days, so you can bask in all its splendor for longer while enjoying this breathtaking bouquet! These delightful flowers are lovingly arranged by our master floral designers.<\/li> <\/ul> <p>Our bouquets come in a dazzling array of colors, including white, orange, colorful, lilac-yellow, and white-orange. So whether you're looking for a soft and subtle white tulip bouquet, a vibrant and lively yellow tulips bouquet, or an enchanting and mesmerizing orange tulip bouquet, Bloom Boom has just the perfect arrangement for you.<\/p> <h3>White Tulip Bouquet: The Epitome of Elegance<\/h3> <p>A white tulip bouquet is the definition of sophistication and grace. Our white tulips flowers are carefully selected for their pristine petals and delicate forms, creating a tulip flower arrangement that exudes elegance and refinement. A white tulip bouquet is ideal for weddings, anniversaries, or as a thoughtful sympathy gift.<\/p> <h3>Yellow Tulips Bouquet: A Ray of Sunshine<\/h3> <p>Bring a touch of joy and cheer to any space with our yellow tulips bouquet. Known for their vibrant hues and uplifting energy, these tulip flowers are perfect for celebrating life's special moments or simply brightening up your day. A yellow tulips bouquet is a symbol of friendship, making it a thoughtful gift for someone special.<\/p> <h3>Orange Tulip Bouquet: A Burst of Warmth and Creativity<\/h3> <p>Looking for something a bit bolder? Our orange tulip bouquet radiates warmth, passion, and creativity. These bold tulip flowers are perfect for infusing energy and originality into any space or event. An orange tulip bouquet is a great choice for birthdays, graduations, or corporate events.<\/p> <h3>Lilac-Yellow Tulips Bouquet: A Romantic Touch<\/h3> <p>Our combination of lilac-yellow tulips bouquet is the perfect choice for expressing love and admiration. These delicate tulip flowers are perfect for romantic gestures, anniversaries, or just to show someone that you care. This perfect tulip bouquet is a timeless and heartfelt gift that will be cherished for years to come.<\/p> <h3>White-Orange Tulips Bouquet: A Symbol of Passion and Desire<\/h3> <p>Our white-orange tulips bouquet is a powerful expression of passion, love, and desire. These vibrant tulip flowers are perfect for romantic occasions or simply to add a touch of drama and intensity to your space. Our white-orange tulip bouquet is a bold and unforgettable gift that will leave a lasting impression.<\/p> <h2>Tulip Flowers Near Me: Experience the Bloom Boom Difference<\/h2> <p>Bloom Boom's mono-bouquet tulips are a testament to our commitment to delivering the best tulip flowers near you. With our convenient Los Angeles and Santa Monica locations, you can easily pick up your bouquet of tulips cost-effectively and efficiently. Place your order online and have your tulip flowers ready for pickup in just 4 hours!<\/p> <h2>Tulip Flowers Delivery: Bringing Floral Splendor to Your Doorstep<\/h2> <p>For those who prefer the convenience of tulip flowers delivery, Bloom Boom has got you covered. Our delivery services are available throughout Los Angeles from 9 AM to 8 PM daily. Orders placed before 2 PM can be shipped the same day, ensuring that your fresh tulips bouquet arrives at its destination in pristine condition.<\/p> <p>Shipping costs are calculated based on the shipping address at checkout. We offer free delivery up to 3 miles, $9.95 for distances from 3 to 7 miles, $1.25 per mile for distances from 7 to 15 miles, $1.5 per mile for distances from 15 to 25 miles, and $2 per mile for distances of 25 miles and beyond.<\/p> <h2>Bloom Boom's Tulips Flowers Delivery: Freshness Guaranteed<\/h2> <p>At Bloom Boom, we take pride in offering the freshest tulips flowers bouquet options available. Our tulip flowers delivery service ensures that your bouquet of tulips arrives at your doorstep in pristine condition and full of life. With Bloom Boom, you can trust that your tulip flower arrangement will be crafted with care and delivered with love.<\/p> <h3>Make a Lasting Impression with Bloom Boom's Bouquet of Tulips<\/h3> <p>Indulge in the magic of mono-bouquet tulips with Bloom Boom and experience the epitome of floral elegance. From the vibrant hues and delicate petals to the enchanting arrangements, our tulips flowers are the perfect way to elevate any space. Order your bouquet of tulips today and let the beauty of Bloom Boom's creations captivate your senses.<\/p> <div itemscope=\"\" itemtype=\"https:\/\/schema.org\/FAQPage\" class=\"faqpage\"> <h2>Frequently Asked Questions About Tulip Flower Arrangements<\/h2> <div itemscope=\"\" itemprop=\"mainEntity\" itemtype=\"https:\/\/schema.org\/Question\"> <h3 itemprop=\"name\">Can I customize my mono-bouquet tulips order<i class=\"icon icon-chevron-down\"><\/i>\n<\/h3> <div itemscope=\"\" itemprop=\"acceptedAnswer\" itemtype=\"https:\/\/schema.org\/Answer\"> <div itemprop=\"text\" class=\"faqtext\"> Absolutely! Bloom Boom offers a wide range of colors for our mono-bouquet tulips, including white, orange, colorful, lilac-yellow, and white-orange. Simply choose your preferred color and size to create your perfect tulip flower arrangement. <\/div> <\/div> <\/div> <div itemscope=\"\" itemprop=\"mainEntity\" itemtype=\"https:\/\/schema.org\/Question\"> <h3 itemprop=\"name\">How do I care for my bouquet of tulips?<i class=\"icon icon-chevron-down\"><\/i>\n<\/h3> <div itemscope=\"\" itemprop=\"acceptedAnswer\" itemtype=\"https:\/\/schema.org\/Answer\"> <div itemprop=\"text\" class=\"faqtext\"> To keep your tulips flowers looking fresh and vibrant, trim the stems at an angle and place them in a clean vase filled with fresh water. Be sure to change the water every couple of days, and keep the bouquet in a cool, dry area away from direct sunlight. <\/div> <\/div> <\/div> <div itemscope=\"\" itemprop=\"mainEntity\" itemtype=\"https:\/\/schema.org\/Question\"> <h3 itemprop=\"name\">Can I send tulip flowers as a gift?<i class=\"icon icon-chevron-down\"><\/i>\n<\/h3> <div itemscope=\"\" itemprop=\"acceptedAnswer\" itemtype=\"https:\/\/schema.org\/Answer\"> <div itemprop=\"text\" class=\"faqtext\"> Yes, Bloom Boom's mono-bouquet tulips make for a stunning and thoughtful gift for any occasion. Simply place your order online and provide the recipient's shipping information at checkout. Your fresh tulips bouquet will be delivered right to their doorstep! <\/div> <\/div> <\/div> <div itemscope=\"\" itemprop=\"mainEntity\" itemtype=\"https:\/\/schema.org\/Question\"> <h3 itemprop=\"name\">Are there any special promotions or discounts on bouquet of tulips cost?<i class=\"icon icon-chevron-down\"><\/i>\n<\/h3> <div itemscope=\"\" itemprop=\"acceptedAnswer\" itemtype=\"https:\/\/schema.org\/Answer\"> <div itemprop=\"text\" class=\"faqtext\"> To stay up-to-date on our latest promotions and discounts, be sure to follow Bloom Boom on social media and sign up for our newsletter. We frequently offer exclusive deals for our valued customers. <\/div> <\/div> <\/div> <div itemscope=\"\" itemprop=\"mainEntity\" itemtype=\"https:\/\/schema.org\/Question\"> <h3 itemprop=\"name\">Can I place an order for pickup at Bloom Boom?<i class=\"icon icon-chevron-down\"><\/i>\n<\/h3> <div itemscope=\"\" itemprop=\"acceptedAnswer\" itemtype=\"https:\/\/schema.org\/Answer\"> <div itemprop=\"text\" class=\"faqtext\"> Yes, we offer convenient pickup options at our Los Angeles and Santa Monica locations. Place your order online, and your fresh tulips bouquet will typically be ready for pickup in just 4 hours. <\/div> <\/div> <\/div> <\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17605021434164__d92cb24f-d92a-4225-80fb-1f1a780714bd-168917674426c68009-1"
+      ],
+      "settings": {
+        "enable_map": false,
+        "map": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3154.8939060848147!2d144.81158271584684!3d-37.74563313792195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65fa6debeb781%3A0xe1d23f5d1759961e!2s184%20Main%20Rd%20E%2C%20St%20Albans%20VIC%203021%2C%20%C3%9Ac!5e0!3m2!1svi!2s!4v1618277125252!5m2!1svi!2s\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"><\/iframe>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "50px,,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "heading_template",
+    "top",
+    "main",
+    "sidebar",
+    "d92cb24f-d92a-4225-80fb-1f1a780714bd"
+  ]
+}

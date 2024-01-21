@@ -1,0 +1,347 @@
+{
+  "sections": {
+    "heading_template": {
+      "type": "heading-template",
+      "blocks": {
+        "a61b5459-0dd8-4796-a9c8-e3f1ee42dfb9": {
+          "type": "1",
+          "settings": {
+            "heading": "Page Heading",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 20,
+            "text_lh": 0,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 20,
+            "hidden_mobile": false,
+            "text_fs_mb": 20,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 20
+          }
+        },
+        "e9f249a0-0a0f-4baf-9664-73babbd7bbe7": {
+          "type": "4",
+          "settings": {
+            "design_des": "show_all",
+            "length": 60,
+            "view_more": true,
+            "viewm_txt": "View more",
+            "fontf": "inherit",
+            "text_cl": "#ffffff",
+            "text_fs": 16,
+            "text_lh": 24,
+            "text_fw": 400,
+            "text_ls": 0,
+            "font_italic": false,
+            "font_uppercase": false,
+            "text_shadow": false,
+            "text_mgb": 20,
+            "hidden_mobile": false,
+            "text_fs_mb": 16,
+            "text_lh_mb": 0,
+            "text_ls_mb": 0,
+            "text_mgb_mobile": 10
+          }
+        }
+      },
+      "block_order": [
+        "a61b5459-0dd8-4796-a9c8-e3f1ee42dfb9",
+        "e9f249a0-0a0f-4baf-9664-73babbd7bbe7"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/florist-making-beautiful-floral-bouquet_23-2148846490.webp",
+        "use_specify_image": false,
+        "parallax": true,
+        "color": "#000000",
+        "overlay": 41,
+        "padding": 100,
+        "paddingmb": 50,
+        "mg_b": 0,
+        "mg_bmb": 0,
+        "content_align": "t4s-text-center",
+        "bg_pos": "left center",
+        "bg_repeat": "inherit",
+        "bg_size": "cover",
+        "use_cus_css": false,
+        "code_cus_css": ".SectionID {\nbackground-color:red\n}"
+      }
+    },
+    "top": {
+      "type": "top-collections",
+      "blocks": {
+        "863873b6-012e-4a34-90e3-eead750fa3ce": {
+          "type": "cat",
+          "settings": {
+            "collection": "up-to-150",
+            "icon": ""
+          }
+        },
+        "fc07bff9-6d08-423c-8802-9a03c34f3a31": {
+          "type": "cat",
+          "settings": {
+            "collection": "150-300",
+            "icon": ""
+          }
+        },
+        "a286cc0b-0c90-4b1a-862c-a1136f283aac": {
+          "type": "cat",
+          "settings": {
+            "collection": "300-500",
+            "icon": ""
+          }
+        },
+        "23c84729-8fcb-488c-9541-00e283af6afe": {
+          "type": "cat",
+          "settings": {
+            "collection": "500-700",
+            "icon": ""
+          }
+        },
+        "5f1d751a-fdac-43d4-ad9d-55da0c297244": {
+          "type": "cat",
+          "settings": {
+            "collection": "700-900",
+            "icon": ""
+          }
+        },
+        "0f0e1f7c-788c-46c0-9fb4-1ec7ce88da01": {
+          "type": "cat",
+          "settings": {
+            "collection": "over-900",
+            "icon": ""
+          }
+        },
+        "70189b51-5562-4924-b642-a1deba7741ee": {
+          "type": "cat",
+          "settings": {
+            "collection": "sale",
+            "icon": ""
+          }
+        },
+        "560f5822-3eeb-4070-a2cd-b5738881a4c1": {
+          "type": "cat",
+          "settings": {
+            "collection": "shoes",
+            "icon": ""
+          }
+        },
+        "be9b8b8f-6cac-47ab-b809-a2fe640a75a7": {
+          "type": "cat",
+          "settings": {
+            "collection": "women",
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "863873b6-012e-4a34-90e3-eead750fa3ce",
+        "fc07bff9-6d08-423c-8802-9a03c34f3a31",
+        "a286cc0b-0c90-4b1a-862c-a1136f283aac",
+        "23c84729-8fcb-488c-9541-00e283af6afe",
+        "5f1d751a-fdac-43d4-ad9d-55da0c297244",
+        "0f0e1f7c-788c-46c0-9fb4-1ec7ce88da01",
+        "70189b51-5562-4924-b642-a1deba7741ee",
+        "560f5822-3eeb-4070-a2cd-b5738881a4c1",
+        "be9b8b8f-6cac-47ab-b809-a2fe640a75a7"
+      ],
+      "settings": {
+        "show_top_collections": true,
+        "source": "3",
+        "menu": "by-price",
+        "sort_collections": "alphabetical_reversed",
+        "box_border": "top",
+        "content_align": "center",
+        "hidden_mobile": false,
+        "space_item": 33,
+        "fontf": "inherit",
+        "text_cl": "#ffffff",
+        "text_cl_hover": "#ffffff",
+        "text_fs": 18,
+        "text_lh": 30,
+        "text_fw": 400,
+        "text_ls": 0,
+        "font_italic": false,
+        "nav_btn": true,
+        "layout": "t4s-container-fluid",
+        "cl_bg": "#64664d",
+        "cl_bg_gradient": "",
+        "mg": "3",
+        "pd": "",
+        "mg_mb": "",
+        "pd_mb": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "filter_id": {
+          "type": "filter",
+          "settings": {
+            "style_filters": "sidebar"
+          }
+        },
+        "740319a4-8e19-4c70-b8a9-ada7cf235cbc": {
+          "type": "layout",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "30594d23-d644-4653-9545-9ff769d2e6ab": {
+          "type": "sortby",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "filter_id",
+        "740319a4-8e19-4c70-b8a9-ada7cf235cbc",
+        "30594d23-d644-4653-9545-9ff769d2e6ab"
+      ],
+      "settings": {
+        "show_desc": false,
+        "position_desc": "2",
+        "product_des": "1",
+        "show_vendor": false,
+        "use_cdt": true,
+        "image_ratio": "ratio1_1",
+        "image_size": "cover",
+        "image_position": "8",
+        "content_align": "default",
+        "limit": 12,
+        "enable_listing": true,
+        "enable_listing_default": false,
+        "col_dk": "4",
+        "col_tb": "2",
+        "col_mb": "2",
+        "space_h_item": "30",
+        "space_v_item": "30",
+        "space_h_item_mb": "6",
+        "space_v_item_mb": "6",
+        "layout_des": "1",
+        "use_pagination": "default",
+        "enable_bar_lm": true,
+        "btn_icon": false,
+        "button_style": "outline",
+        "btns_size": "large",
+        "btns_cl": "primary",
+        "button_effect": "sweep-to-right",
+        "btn_pos": "t4s-text-center",
+        "type_filters": "facets",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": ",,20px,",
+        "pd": "",
+        "mg_mb": ",,15x,",
+        "pd_mb": ""
+      }
+    },
+    "sidebar": {
+      "type": "sidebar-collection",
+      "blocks": {
+        "c7bdf308-8019-4991-b58c-6d3e205a52eb": {
+          "type": "category",
+          "settings": {
+            "heading": "Product Categories",
+            "cat_source": "1",
+            "cat_link_list": "",
+            "count": true
+          }
+        },
+        "9d37e80a-1eda-4a65-bb08-199e6a933a16": {
+          "type": "collection",
+          "settings": {
+            "heading": "Sale Products",
+            "collection": "frontpage",
+            "limit_pr": 3,
+            "image_ratio": "t4s_ratioadapt",
+            "image_size": "t4s_cover",
+            "image_position": "t4s_position_8"
+          }
+        },
+        "c090f36e-d6ef-4a2a-ab04-cc78211dadb7": {
+          "type": "image",
+          "settings": {
+            "heading": "",
+            "img_effect": "zoom",
+            "b_link": "",
+            "open_link": "_self",
+            "content_align": "center",
+            "date": "2022\/12\/26",
+            "cdt_des": "1",
+            "countdown_pos": "2",
+            "cdt_size": "small",
+            "box_bdr": 0,
+            "bd_width": 0,
+            "space_item": 10,
+            "number_cl": "#ffffff",
+            "text_cl": "#222222",
+            "border_cl": "#000000",
+            "bg_cl": "#000000"
+          }
+        },
+        "221aa22f-5c6c-40c9-9403-6d3cd2c23e93": {
+          "type": "filter",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "c7bdf308-8019-4991-b58c-6d3e205a52eb",
+        "9d37e80a-1eda-4a65-bb08-199e6a933a16",
+        "c090f36e-d6ef-4a2a-ab04-cc78211dadb7",
+        "221aa22f-5c6c-40c9-9403-6d3cd2c23e93"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_drawer": false,
+        "space": 50,
+        "size": "medium",
+        "br_style": "none",
+        "brcolor": "#222222",
+        "sidebar_bdr": 0,
+        "sidebar_pd": 15
+      }
+    },
+    "d92cb24f-d92a-4225-80fb-1f1a780714bd": {
+      "type": "contact-form",
+      "blocks": {
+        "template--17605021434164__d92cb24f-d92a-4225-80fb-1f1a780714bd-168917674426c68009-1": {
+          "type": "bl_info",
+          "settings": {
+            "heading": "RANUNCULUS",
+            "text": "<h2>Discover the Magic of Ranunculus at Bloom Boom<\/h2> <p>Welcome to a world of enchanting beauty and charm, where the air is filled with the sweet scent of fresh flowers, and vibrant colors delight your senses. At Bloom Boom, we are delighted to introduce our new category of mono-bouquet ranunculus, an exquisite choice for those who appreciate the finest blooms for their personal and professional spaces.<\/p> <p>At Bloom Boom, we are delighted to introduce our new category of mono-bouquet ranunculus, an exquisite choice for those who appreciate the finest blooms for their personal and professional spaces. Let us take you on a journey to explore the captivating allure of these stunning flowers and how they can transform any space into a breathtaking floral haven.<\/p> <h2>About the Ranunculus Flower<\/h2> <p>Ranunculus flowers, also commonly referred to as the Persian buttercup, are simply magical. Their delicate petals form intricate layers of beauty that resemble a star exploding on canvas - and when perfectly arranged in one-color bouquets like those found at BloomBoom, the effect is utterly breathtaking! From warm pink blooms to striking reds or vibrant oranges and whites: no matter what your desired color scheme may be for an event or special occasion, ranunculus always shines through with grandeur.<\/p> <p>Additionally, they have a superb long shelf life so you won't need to worry about buying them too far ahead of time; their perfect condition will last much longer than other varieties allowing you more flexibility with your decorating plans. Perfectly paired together into mono-bouquets by friends at Bloom Boom it's easy to discover why this captivating flower is universally loved around the world!<\/p> <p>The ranunculus flower is a perennial plant, characterized by its delicate, rose-like appearance and layers of crepe-paper-thin petals. These flowers come in a myriad of colors, including pink, red, orange, yellow, and white. Each hue brings with it a varied meaning and emotion, making ranunculus flowers the perfect choice for those seeking to convey a specific sentiment.<\/p> <p>In addition to their striking beauty, the ranunculus flower is known for its sweet, subtle fragrance. This delicate scent adds to the allure of these enchanting blooms, making them a popular choice for bouquets, arrangements, and decorations.<\/p> <p>As you step into our Santa Monica location, you will be greeted by a sea of ranunculus flowers, expertly designed in mesmerizing mono-bouquets that showcase their natural beauty. Each bloom is hand-selected by our skilled florists, ensuring that you receive only the freshest and most stunning flowers for your home, office, or special event.<\/p> <h2>What Occasions are Best for the Ranunculus Flower Mono-Bouquet?<\/h2> <p>The beauty and versatility of the ranunculus flower make it an ideal choice for various occasions. Some of the most fitting events to grace with a ranunculus mono-bouquet include:<\/p> <ul> <li>\n<p>Weddings are a magical, once-in-a lifetime experience that deserve the grandiose of ranunculus. These ethereal flowers embody elegance and create an atmosphere of whimsical sophistication for any bride walking down the aisle. A white or blush color palette blends seamlessly with traditional wedding themes, providing subtle touches to bring out any brides’ individual style on her special day while complimenting floral decor such as roses or lilies. With their delicate petals and romantic hues it's easy to envision how these perfect posies could set just the right ambiance in even the most idyllic fairy tale setting imaginable!<\/p> <p>Ranunculus can add value not only visually but also practically too - did you know they're known for being extremely affordable compared to other popular bouquet staples? It's no wonder so many couples utilize ranunculus' gossamery beauty when designing unique flower arrangements without scrimping on quality despite tight budgets!<\/p>\n<\/li> <li>\n<p>Anniversaries are an excellent opportunity to show your partner or loved one just how much you appreciate them by presenting a gorgeous bouquet of ranunculus flowers. Ranunculus offer a range of different colors and hues, making it the perfect flower for any special occasion.<\/p> <p>Red ranunculus will tantalize your significant other with passion and desire, while pink ranunculus bring admiration and love into bloom - truly they are the embodiment of romance! If classic red roses aren’t quite their style then let these opulent blooms set off fireworks in all shades of velvety-reds through blushing pinks.<\/p>\n<\/li> <li>\n<p>Birthdays call for surprises, so why not delight a beloved friend or family member with a cheerful and vibrant bouquet of orange or yellow ranunculus flowers? These blooms are the perfect way to show your recipient how much you care! Ranunculuses signify happiness and friendship in any patchwork palette.<\/p> <p>Choose lush color combinations that range from tangerine-tipped petals to deep lemon tones—all surefire ways of exuding sheer joy. Not only will these bold selections create an unforgettable moment full of laughter but also set the party mood going too.<\/p>\n<\/li> <\/ul> <h2>Ranunculus Bouquets Near Me: Find Your Perfect Match<\/h2> <p>At Bloom Boom, we understand the importance of finding the perfect ranunculus bouquet. That's why we offer a diverse range of mono-bouquets, designed to cater to every taste and budget.<\/p> <p>Our Standard Mono-Bouquet features 15 gorgeous ranunculus flowers, artfully arranged to create a striking display of color and beauty. Priced at $143, this bouquet is an affordable yet luxurious choice for those who appreciate the finer things in life.<\/p> <p>For a more opulent option, our Deluxe Mono-Bouquet includes 21 ranunculus flowers, expertly designed to make a statement in any space. At $221, this bouquet provides an elevated experience for those who seek to indulge in the extraordinary.<\/p> <p>Finally, our Premium Mono-Bouquet offers an extravagant display of 31 ranunculus stems, meticulously crafted to create a breathtaking floral masterpiece. At $325, this bouquet is an exceptional choice for those who desire the ultimate in luxury and beauty.<\/p> <h2>Choose Your Color: Pink, Red, Orange, and White Ranunculus Bouquets<\/h2> <p>As you explore our range of mono-bouquet ranunculus, you will discover an array of color options to suit your personal style and preferences.<\/p> <p>Our <strong>Pink Ranunculus Bouquet<\/strong> is a delightful choice for those who adore the soft, feminine allure of delicate pink blooms, while our <strong>Red Ranunculus Bouquet<\/strong> exudes passion and romance, perfect for those who seek to make a bold statement.<\/p> <p>If you prefer a more vibrant and energetic aesthetic, our <strong>Orange Ranunculus Bouquet<\/strong> offers a lively burst of color that will invigorate any space. Alternatively, our <strong>White Ranunculus Bouquet<\/strong> boasts a timeless elegance that can elevate even the most sophisticated settings.<\/p> <h2>Reliable Ranunculus Bouquet Delivery in Los Angeles and Santa Monica<\/h2> <p>At Bloom Boom, we are committed to providing our valued customers with exceptional service and convenience. That's why we offer reliable ranunculus bouquet delivery throughout Los Angeles and Santa Monica.<\/p> <p>Orders placed before 2 PM can be shipped the same day, ensuring that your fresh ranunculus flowers arrive at their destination in perfect condition. With delivery available from 9 AM to 8 PM daily, you can trust Bloom Boom to bring the magic of mono-bouquet ranunculus to your doorstep.<\/p> <h2>Picking Up Your Ranunculus Mono-Bouquet In Store?<\/h2> <p>Sure, online shopping has its advantages - but there's one thing you can't replace when it comes to purchasing your ranunculus bouquets at Bloom Boom: the experience. Our store has a charming atmosphere that will make any shopper swoon! When you pick up your mono-bouquet in store, our knowledgeable and passionate employees are excited to help answer any questions about all of our ranunculus or other bloom varieties.<\/p> <p>Best of all, picking up is the fastest way to get your bouquet. Typically speaking, we can have your bouquet ready in 4 hours from placing an order.<\/p> <div itemscope=\"\" itemtype=\"https:\/\/schema.org\/FAQPage\" class=\"faqpage\"> <h2>Frequently Asked Questions<\/h2> <div itemscope=\"\" itemprop=\"mainEntity\" itemtype=\"https:\/\/schema.org\/Question\"> <h3 itemprop=\"name\">How long do ranunculus flowers last?<i class=\"icon icon-chevron-down\"><\/i>\n<\/h3> <div itemscope=\"\" itemprop=\"acceptedAnswer\" itemtype=\"https:\/\/schema.org\/Answer\"> <div itemprop=\"text\" class=\"faqtext\"> Ranunculus flowers can last up to 7-10 days with proper care, which includes changing the water every 2-3 days, cutting the stems at an angle, and removing any wilted petals. <\/div> <\/div> <\/div> <div itemscope=\"\" itemprop=\"mainEntity\" itemtype=\"https:\/\/schema.org\/Question\"> <h3 itemprop=\"name\">Can I pick up my ranunculus bouquet in-store?<i class=\"icon icon-chevron-down\"><\/i>\n<\/h3> <div itemscope=\"\" itemprop=\"acceptedAnswer\" itemtype=\"https:\/\/schema.org\/Answer\"> <div itemprop=\"text\" class=\"faqtext\"> Yes, pickup is typically available within 4 hours at our Santa Monica location: 500 Broadway, Suite 223, Santa Monica, CA 90401. <\/div> <\/div> <\/div> <div itemscope=\"\" itemprop=\"mainEntity\" itemtype=\"https:\/\/schema.org\/Question\"> <h3 itemprop=\"name\">How much does ranunculus bouquet delivery cost?<i class=\"icon icon-chevron-down\"><\/i>\n<\/h3> <div itemscope=\"\" itemprop=\"acceptedAnswer\" itemtype=\"https:\/\/schema.org\/Answer\"> <div itemprop=\"text\" class=\"faqtext\"> Shipping costs are calculated based on the shipping address at checkout. Delivery is free up to 3 miles. From 3 to 7 miles, the delivery fee is $9.95. From 7 to 15 miles, the delivery fee is $1.25 per mile. From 15 to 25 miles, the delivery fee is $1.50 per mile. For 25 or more miles, the delivery fee is $2 per mile. <\/div> <\/div> <\/div> <div itemscope=\"\" itemprop=\"mainEntity\" itemtype=\"https:\/\/schema.org\/Question\"> <h3 itemprop=\"name\">Can I customize my ranunculus bouquet with other flowers?<i class=\"icon icon-chevron-down\"><\/i>\n<\/h3> <div itemscope=\"\" itemprop=\"acceptedAnswer\" itemtype=\"https:\/\/schema.org\/Answer\"> <div itemprop=\"text\" class=\"faqtext\"> While our mono-bouquet ranunculus category focuses on showcasing the beauty of ranunculus flowers, our skilled florists may be able to accommodate custom requests. Please contact us at +1 (424) 208-1816 to discuss your specific requirements. <\/div> <\/div> <\/div> <div itemscope=\"\" itemprop=\"mainEntity\" itemtype=\"https:\/\/schema.org\/Question\"> <h3 itemprop=\"name\">Are there any special care tips for ranunculus bouquets?<i class=\"icon icon-chevron-down\"><\/i>\n<\/h3> <div itemscope=\"\" itemprop=\"acceptedAnswer\" itemtype=\"https:\/\/schema.org\/Answer\"> <div itemprop=\"text\" class=\"faqtext\"> To prolong the life of your ranunculus bouquet, keep the flowers away from direct sunlight and drafts, and maintain a consistent room temperature. Additionally, ensure that the vase is always filled with fresh water, and remove any wilted petals promptly. <\/div> <\/div> <\/div> <\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "template--17605021434164__d92cb24f-d92a-4225-80fb-1f1a780714bd-168917674426c68009-1"
+      ],
+      "settings": {
+        "enable_map": false,
+        "map": "<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3154.8939060848147!2d144.81158271584684!3d-37.74563313792195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65fa6debeb781%3A0xe1d23f5d1759961e!2s184%20Main%20Rd%20E%2C%20St%20Albans%20VIC%203021%2C%20%C3%9Ac!5e0!3m2!1svi!2s!4v1618277125252!5m2!1svi!2s\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"><\/iframe>",
+        "layout": "t4s-container-wrap",
+        "cl_bg": "",
+        "cl_bg_gradient": "",
+        "mg": "50px,,50px,",
+        "pd": "",
+        "mg_mb": ",,30px,",
+        "pd_mb": "",
+        "use_cus_css": false,
+        "code_cus_css": ""
+      }
+    }
+  },
+  "order": [
+    "heading_template",
+    "top",
+    "main",
+    "sidebar",
+    "d92cb24f-d92a-4225-80fb-1f1a780714bd"
+  ]
+}

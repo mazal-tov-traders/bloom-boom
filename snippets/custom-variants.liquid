@@ -1,0 +1,163 @@
+<style>
+  .custom-variant {
+    margin-bottom: 16px;
+  }
+
+  .custom-variant__options {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .custom-variant__option {
+    display: block;
+    border: 1px solid #454545;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .custom-variant__option.active {
+    width: 48px;
+    height: 48px;
+    padding: 4px;
+  }
+
+  .custom-variant__quantity {
+    padding: 0.5rem 1rem;
+  }
+
+  .custom-variant__quantity.active {
+    border: 1px solid gray;
+  }
+
+  .custom-variant__title {
+    margin-bottom: 12px;
+  }
+
+  .custom-variant__option-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+  }
+</style>
+
+<div class="custom-variants">
+  <div class="custom-variant">
+    <p class="custom-variant__title">
+      Color: <b><span id="variant-color-value"></span></b>
+    </p>
+    <div id="variant-color" class="custom-variant__options"></div>
+  </div>
+  <div class="custom-variant">
+    <p class="custom-variant__title">
+      Quantity: <b><span id="variant-quantity-value"></span></b>
+    </p>
+    <div id="variant-quantity" class="custom-variant__options"></div>
+  </div>
+</div>
+
+<script>
+  (() => {
+    document.querySelector("#variant-color-value").innerHTML =
+      "{{product.metafields.custom.family_color}}";
+    document.querySelector("#variant-quantity-value").innerHTML =
+      "{{product.metafields.custom.family_quantity}}";
+
+    if ("{{product.metafields.custom.family_type}}") {
+      fetch("https://51034d.myshopify.com/api/2023-07/graphql.json", {
+        method: "POST",
+        body: `query products {
+                      collection(id: "gid://shopify/Collection/442967097652") {
+                        handle
+                        otherColors: products(
+                          first: 100
+                          filters: [{productMetafield: {namespace: "custom", key: "family_type", value: "{{product.metafields.custom.family_type}}"}}, {productMetafield: {namespace: "custom", key: "family_quantity", value: "{{product.metafields.custom.family_quantity}}"}}]
+                        ) {
+                          edges {
+                            node {
+                              id
+                              title
+                              handle
+                              color: metafield(namespace: "custom", key: "family_color") {
+                                value
+                              }
+                              featuredImage {
+                                url
+                              }
+                            }
+                          }
+                        }
+                        otherQuantities: products(
+                          first: 100
+                          filters: [{productMetafield: {namespace: "custom", key: "family_type", value: "{{product.metafields.custom.family_type}}"}}, {productMetafield: {namespace: "custom", key: "family_color", value: "{{product.metafields.custom.family_color}}"}}]
+                        ) {
+                          edges {
+                            node {
+                              id
+                              title
+                              handle
+                              quantity: metafield(namespace: "custom", key: "family_quantity") {
+                                value
+                              }
+                              featuredImage {
+                                url
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }`,
+        headers: {
+          Accept: "application/graphql",
+          "Content-Type": "application/graphql",
+          "X-Shopify-Storefront-Access-Token":
+            "c90f445bd1ca01a871de0fd6188abd33",
+        },
+      })
+        .then((res) => res.json())
+        .then((json) => {
+          const otherColors = json.data.collection.otherColors.edges;
+          const otherQuantities = json.data.collection.otherQuantities.edges;
+
+          if (otherColors.length) {
+            const optionsElem = document.querySelector("#variant-color");
+            let options = [];
+            otherColors.forEach((product) => {
+              const elem = `<a href="/products/${
+                product.node.handle
+              }" class="custom-variant__option ${
+                "{{ product.handle }}" == `${product.node.handle}` && "active"
+              }"><img src="${
+                product.node.featuredImage.url
+              }" class="custom-variant__option-img" alt="color"></a>`;
+              // if ("{{ product.handle }}" == `${product.node.handle}` ) {
+              // return options.unshift(elem)
+              // }
+              return options.push(elem);
+            });
+            optionsElem.innerHTML = options.join("");
+          }
+
+          if (otherQuantities.length && otherQuantities.length > 1) {
+            const optionsElem = document.querySelector("#variant-quantity");
+            const options = otherQuantities
+              .map((product) => {
+                return `<a class="custom-variant__quantity ${
+                  "{{ product.handle }}" == `${product.node.handle}` && "active"
+                }" href="/products/${product.node.handle}">${
+                  product.node.quantity.value
+                }</a>`;
+              })
+              .join("");
+            optionsElem.innerHTML = options;
+          }
+        })
+        .catch((err) => console.error(err));
+    }
+  })();
+</script>
